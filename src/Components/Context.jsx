@@ -1,7 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./Movie.css";
 
-const API_URL = `http://www.omdbapi.com/?apikey=a3a1f29&s=`;
+//const API_URL = `http://www.omdbapi.com/?apikey=a3a1f29&s=`;
+const API_URL=`https://www.omdbapi.com/?apikey=a3a1f29&s=`;
 const AppContext = React.createContext();
 
 const AppProvider = ({ children }) => {
